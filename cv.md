@@ -8,7 +8,7 @@
 **github:** [oksana-svynarova](https://github.com/oksana-svynarova)  
 
 ## _Summary_ ##  
-Hard-working, self-motivated and creative IT specialist wants to work as a Front-end developer which digital magic attracts her and keeps her create new parts of Web world.
+Hard-working, self-motivated and creative IT specialist wants to work as a Front-end developer which digital magic attracts and keeps creating new pieces of Web world.
 
 ## _Tech skills_ ##  
 ◾◾◾◾◽ HTML  
