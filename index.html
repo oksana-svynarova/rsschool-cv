@@ -15,39 +15,41 @@
     <!--main container-->
     <div class="wrapper">
       <aside class="sidebar">
-        <img class="my-photo" src="./me.jpg" alt="My photo" />
+        <img class="my-photo" src="./me2021.jpg" alt="My photo" />
 
         <!--contacts container-->
-        <div class="contacts-container">
+        <section class="contacts-container">
           <h3 class="contacts-title">Contacts</h3>
-          <div>
+          <ul>
+            <li class="contacts_item">
             <span class="contacts-link-title">Phone:</span>
-            <a class="contacts-link" href="tel:+38 068 668 42 39">
+            <a class="contacts-link" href="tel:+380686684239">
               +38 068 668 42 39
             </a>
-          </div>
-          <div>
+          </li>
+          <li class="contacts_item">
             <span class="contacts-link-title">Email:</span>
             <a class="contacts-link" href="mailto:oksankasvn@gmail.com">
               oksankasvn@gmail.com
             </a>
-          </div>
-          <div>
+          </li>
+          <li class="contacts_item">
             <span class="contacts-link-title">Telegram:</span>
             <a class="contacts-link" href="http://t.me/OksanaSvynarova">
               OksanaSvynarova
             </a>
-          </div>
-          <div>
+          </li>
+          <li class="contacts_item">
             <span class="contacts-link-title">GitHub:</span>
             <a class="contacts-link" href="https://github.com/oksana-svynarova">
               oksana-svynarova
             </a>
-          </div>
-        </div>
+          </li>
+          </ul>
+        </section>
 
         <!--tech skills container-->
-        <div class="tech-skills-container">
+        <section class="tech-skills-container">
           <h3 class="tech-skills-title">Tech skills</h3>
           <ul>
             <li class="skills-item"><span class="skills-text">HTML</span></li>
@@ -59,13 +61,13 @@
               <span class="skills-text">Visual Studio Code</span>
             </li>
             <li class="skills-item">
-              <span class="skills-text">Avocode</span>
+              <span class="skills-text">Figma</span>
             </li>
           </ul>
-        </div>
+        </section>
 
         <!--soft skills container-->
-        <div class="soft-skills-container">
+        <section class="soft-skills-container">
           <h3 class="soft-skills-title">Soft skills</h3>
           <ul>
             <li class="skills-item">
@@ -84,83 +86,91 @@
               <span class="skills-text">Research</span>
             </li>
           </ul>
-        </div>
+        </section>
       </aside>
 
       <!--about me container-->
-      <div class="about-me-container">
+      <main class="about-me-container">
         <!--about me main info-->
         <div class="info-container">
           <h1 class="name">Oksana Svynarova</h1>
           <p class="location">Kharkiv, Ukraine</p>
         </div>
         <!--summary-->
-        <div>
-          <h3 class="about-me-title">Summary</h3>
+        <section>
+          <h2 class="about-me-title">Summary</h2>
           <p class="description">
             Hard-working, self-motivated and creative IT specialist wants to
             work as a Front-end developer which digital magic attracts and keeps
             creating new pieces of Web world.
           </p>
-        </div>
+        </section>
 
         <!--work experience-->
         <div class="work-experience">
-          <h3 class="about-me-title">Work experience</h3>
+          <h2 class="about-me-title">Work experience</h2>
+          <h4 class="educatin-specialty">
+            Code up <a href="https://trusting-almeida-e0bdd8.netlify.app/">Webdev</a> website
+          </h4>
+          <h4 class="educatin-specialty">
+            Code up <a href="https://rolling-scopes-school.github.io/oksana-svynarova-JSFE2021Q1/wildlife/">Wildlife</a> website
+          </h4>
         </div>
 
         <!--education container-->
         <div class="education-container">
-          <h3 class="about-me-title">Education</h3>
+          <h2 class="about-me-title">Education</h2>
 
           <!--institution 1-->
-          <div>
-            <h4 class="education-institution">
+          <details open="open">
+            <summary class="education-institution">
               O.M. Beketov National University of Urban Economy in Kharkiv
-            </h4>
-            <h5 class="educatin-specialty">
+            </summary>
+            <h4 class="educatin-specialty">
               Master’s Degree of Geoinformation systems and technologies
-            </h5>
+            </h4>
             <span class="education-time">
               September 2006 - June 2011 <span class="divider">|</span> Ukraine
             </span>
-          </div>
+          </details>
 
           <!--institution 2-->
-          <div>
-            <h4 class="education-institution">
+          <details open="open">
+            <summary class="education-institution">
               H.S. Skovoroda Kharkiv National Pedagogical University
-            </h4>
-            <h5 class="educatin-specialty">
+            </summary>
+            <h4 class="educatin-specialty">
               Bachelor’s Degree of English language and literature
-            </h5>
+            </h4>
             <span class="education-time">
               September 2017 - June 2020 <span class="divider">|</span> Ukraine
             </span>
+           </details> 
 
           <!--self-education-->
-          <div>
-            <h4 class="education-institution">
+          <details open="open">
+            <summary class="education-institution">
             Self-education
-            </h4>
-            <h5 class="educatin-specialty">
+            </summary>
+            <h4 class="educatin-specialty">
             Complete HTML course on <a href="https://ru.code-basics.com/languages/html">Code Basics</a> 
-            </h5>
-             <h5 class="educatin-specialty">
+            </h4>
+             <h4 class="educatin-specialty">
             Complete CSS course on <a href="https://ru.code-basics.com/languages/css">Code Basics</a> 
-            </h5> 
-             <h5 class="educatin-specialty">
+            </h4> 
+             <h4 class="educatin-specialty">
             Complete JavaScript course on <a href="https://ru.code-basics.com/languages/javascript">Code Basics</a> 
-            </h5>         
-          </div>
-        </div>
+            </h4>         
+          </details>
+        
                 <!--English language level-->
                 <div class="work-experience">
-                    <h3 class="about-me-title">English language level</h3>
+                    <h2 class="about-me-title">English language level</h2>
                 <p class="description">
                     B2. Upper Intermediate </p>
                 </div>
       </div>
+    </main>
     </div>
   </body>
 </html>

@@ -48,6 +48,10 @@ body {
   line-height: 24px;
   margin-bottom: 20px;
 }
+
+.contacts_item {
+  list-style-type: none;
+}
 .contacts-link {
   font-size: 14px;
   font-weight: 400;
